@@ -21,6 +21,5 @@
 - [OK, but what's the catch?](./whats-the-catch.md)
 - [Is the juice worth the squeeze?](./is-the-juice-worth-the-squeeze.md)
 - [How can I get my team up to speed with Rust?](./how-can-i-get-my-team-up-to-speed.md)
-- [Can I get professional support?](./can-i-get-professional-support.md)
 
 [Wash-up](./wash-up.md)

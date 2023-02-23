@@ -2,6 +2,17 @@
 
 ---
 
+## Consultancy and Support
+
+There are a growing number of Rust-based consultancies.
+
+* [Ferrous Systems](https://www.ferrous-systems.com)
+* [Integer32](https://www.integer32.com)
+* [Tweede Golf](https://tweedegolf.nl/en)
+* [Crab Neblua](https://crabnebula.dev)
+
+---
+
 ## Professional Training
 
 Ferrous Systems offer professional training for small teams:
