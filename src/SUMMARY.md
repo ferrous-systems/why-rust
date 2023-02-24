@@ -7,6 +7,7 @@
 - [The 100-foot view](./100ft-view.md)
 - [Where did it come from?](./where-did-it-come-from.md)
 - [Who's in charge now?](./whos-in-charge-now.md)
+- [Is this a community I can engage with?](./community-i-can-engage.md)
 - [What does Rust run on?](./what-does-rust-run-on.md)
 - [What does Rust cost?](./what-does-rust-cost.md)
 - [Can I build safety-critical systems?](./can-i-build-safety-critical-systems.md)
