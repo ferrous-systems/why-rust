@@ -32,9 +32,9 @@ fn main() {
 <div>
 
 * Network Services
-* Command-line apps
-* Web apps
-* Desktop apps
+* Command-line Apps
+* Web Apps
+* Desktop Apps
 * Bootloaders
 
 </div>
@@ -47,6 +47,12 @@ fn main() {
 
 </div>
 </div>
+
+---
+
+## Front-end or Back-end?
+
+* It's applicable at *every point* in the stack
 
 ---
 
