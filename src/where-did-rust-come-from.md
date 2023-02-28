@@ -14,9 +14,11 @@
 ## Focus
 
 * Rust lost many features from 2012 to 2014
-* Garbage collector, evented runtime, complex error handling
-* All present once, now gone
-* Orientation towards a usable systems programming language
+  * garbage collector
+  * evented runtime
+  * complex error handling
+  * etc
+* Rust oriented itself towards being a usable systems programming language
 
 ---
 
