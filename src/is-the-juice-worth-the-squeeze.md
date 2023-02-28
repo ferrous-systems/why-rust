@@ -35,7 +35,7 @@ But we can show you what other people have found...
 
 > Speaking of languages, it's time to halt starting any new projects in C/C++
 > and use Rust for those scenarios where a non-GC language is required. For the
-> sake of security and reliability. the industry should declare those languages
+> sake of security and reliability, the industry should declare those languages
 > as deprecated.
 
 <https://twitter.com/markrussinovich/status/1571995117233504257>
