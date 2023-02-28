@@ -16,9 +16,11 @@
 * You cannot create race-hazards!
 * Every value has one owner
 * You can create either:
-  * One exclusive reference
-  * Multiple shared references
+  * One exclusive, mutable, reference
+  * Multiple shared, immutable, references
+  * Never both!
 * Checked at compile time
+  * Or at run-time if required
 
 ---
 
