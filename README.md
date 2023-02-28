@@ -6,7 +6,7 @@ An introduction for Managers, Decision Makers and Technical Leads.
 
 In our half-day course on *Why Rust?* you will learn what Rust is about, where
 it is from and where it is going, and whether it is right for you to look at
-Rust for your next project. Includes two interactive lectures, an extended live
+Rust for your next project. The agenda includes two interactive lectures, an extended live
 programming demonstration, and a Q&A session. We also provide a list of
 resources and places you can go for support and advice on taking your next
 steps.
