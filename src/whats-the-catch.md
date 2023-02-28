@@ -25,7 +25,7 @@
 ## Rust doesn't interact well with C++ code
 
 * Rust doesn't understand classes or templates
-* Neither Rust not C++ have a stable ABI
+* Neither Rust nor C++ have a stable ABI
 * Projects do exist to auto-generate bindings, like [cxx](https://crates.io/crates/cxx)
 
 ---
