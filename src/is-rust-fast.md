@@ -1,4 +1,4 @@
-# Is it fast?
+# Is Rust fast?
 
 ---
 

@@ -52,13 +52,13 @@ Our standard timetable for this course is as follows:
 ## Content
 
 * The 100-foot view
-* Where did it come from?
+* Where did Rust come from?
 * Who's in charge now?
 * What does Rust run on?
 * What does Rust cost?
 * Can I build safety-critical systems?
 * A Worked Example
-* Is it fast?
+* Is Rust fast?
 * So it's fast, what about safety?
 * But can I be productive?
 * OK, but what's the catch?

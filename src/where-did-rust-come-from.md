@@ -1,4 +1,4 @@
-# Where did it come from?
+# Where did Rust come from?
 
 ---
 
