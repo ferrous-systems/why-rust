@@ -5,7 +5,7 @@
 ## Rust is *memory safe*
 
 * It applies bounds checks to array and slice accesses
-* You can 'accidentally' go off the end of a buffer
+* You can't 'accidentally' go off the end of a buffer
 * Massive reduction in bugs
 * Where possible (e.g. the indicies are constant) those checks are optimised out
 
