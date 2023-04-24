@@ -128,11 +128,11 @@ fn main() {
 
 ---
 
-![center width:1000](./platinum-members.png)
+![center](./platinum-members.png)
 
 ---
 
-![center width:1000](./other-members.png)
+![center](./other-members.png)
 
 ## The Rust Project
 
