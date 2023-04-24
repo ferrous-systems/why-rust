@@ -200,7 +200,7 @@ https://www.rust-lang.org/governance
 ## A strong Code of Conduct
 
 The Rust Project, and pretty much the whole Community, follow a [Code of
-  Conduct](https://www.rust-lang.org/policies/code-of-conduct)
+  Conduct](https://www.rust-lang.org/policies/code-of-conduct):
 
 > We are committed to providing a friendly, safe and welcoming environment for
 > all, regardless of level of experience, gender identity and expression, sexual
