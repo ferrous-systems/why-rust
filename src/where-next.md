@@ -198,7 +198,7 @@ int main(int argc, char** argv) {
 
 ## You can describe parts of your API as `unsafe`
 
-* You are requiring the user to pay attention and do some manual checks
+You are requiring the user to pay attention and do some manual checks
 
 ## 3) But can I be productive?
 
