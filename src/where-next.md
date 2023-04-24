@@ -280,7 +280,7 @@ You are requiring the user to pay attention and do some manual checks
 
 ## Touching the hardware requires `unsafe`
 
-* Hardware is a blob of shared mutable state and you have to manually verify
+Hardware is a blob of shared mutable state and you have to manually verify
     your access to it is correct
 
 ##  What you have works just fine
