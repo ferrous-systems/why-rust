@@ -321,8 +321,10 @@ For more information about this error, try `rustc --explain E0502`.
 > for tests. However, a 96-core cloud virtual machine can complete the same
 > build in less than five minutes with tests completing in 35 seconds.
 
-* The faster your checks run, the more productive you are!
+## Compile time checks vs run-time checks
+
 * Rust does a lot of work *up front*
+* The faster your checks run, the more productive you are!
 * Raspberry Pi 4 technically works, but it takes a while...
 
 ## Can I build safety-critical systems?
