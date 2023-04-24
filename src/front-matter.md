@@ -20,5 +20,5 @@
 ## Content
 
 * Source code: [github.com/ferrous-systems/why-rust](https://github.com/ferrous-systems/why-rust)
-* Book format: [mdbook]((https://crates.io/crates/mdbook)
-* Slide format: [mdslides](https://crates.io/crates/mdslides)
+* Book format: built with [mdbook](https://crates.io/crates/mdbook)
+* Slide format: built with [mdslides](https://crates.io/crates/mdslides)

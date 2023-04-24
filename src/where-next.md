@@ -270,7 +270,7 @@ You are requiring the user to pay attention and do some manual checks
 * C strings are null-terminated, and of unspecified encoding
 * OS strings are 8-bit on some platforms and 16-bit on others (Windows)
 * Paths on disk are not always valid Unicode
-* You get: `String`/`&str`, `CString`/`CStr`, `OsString`/`OsStr`, `PathBuf`/`Path`
+* You get: `String`/`&str`, `CString`/`&CStr`, `OsString`/`&OsStr`, `PathBuf`/`&Path`
 
 ## Rust doesn't interact well with C++ code
 
