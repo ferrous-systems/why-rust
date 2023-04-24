@@ -77,7 +77,7 @@ fn main() {
 
 ## Rust can *import* C-compatible libraries
 
-* Want to use `zlib`, `OpenSSL`, `SomeSpecialDriverLib`? Sure!
+Want to use `zlib`, `OpenSSL`, `SomeSpecialDriverLib`? Sure!
 
 ## Rust can *export* C-compatible libraries
 
