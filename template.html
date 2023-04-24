@@ -18,7 +18,16 @@
             font-weight: 700;
             cursor: pointer;
         }
-    </style>
+        .reveal blockquote {
+            background: #eee;
+        }
+        .reveal blockquote p::before {
+            content: open-quote;
+        }
+        .reveal blockquote p::after {
+            content: close-quote;
+        }
+</style>
 </head>
 
 <body>
