@@ -289,7 +289,7 @@ If it's safe enough, maintainable enough and fast enough, then you should keep i
 
 ## It's early days for building critical-systems in Rust
 
-* Ferrocene is good, but C and Ada have a multi-decade head start
+ Ferrocene is good, but C and Ada have a multi-decade head start
 
 ## Is the juice worth the squeeze?
 
