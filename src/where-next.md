@@ -285,7 +285,7 @@ Hardware is a blob of shared mutable state and you have to manually verify
 
 ##  What you have works just fine
 
-* If it's safe enough, maintainable enough and fast enough, then you should keep it!
+If it's safe enough, maintainable enough and fast enough, then you should keep it!
 
 ## It's early days for building critical-systems in Rust
 
