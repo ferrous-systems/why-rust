@@ -1,6 +1,5 @@
 #!/bin/sh
 
-marp -I src -o slides --html
+mdslides --output-dir ./slides --template ./template.html
+cp ./src/*.png ./slides
 mdbook build
-
-
