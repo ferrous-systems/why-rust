@@ -60,7 +60,7 @@ fn main() {
 
 ## It's increasingly popular!
 
-* [Stack Overflow Most Loved Language](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages)
+ [Stack Overflow Most Loved Language](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages):
 
 > Rust is on its seventh year as the most loved language with 87% of developers saying they want to continue using it.
 
