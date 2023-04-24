@@ -50,7 +50,7 @@ fn main() {
 
 ## Front-end or Back-end?
 
-* It's applicable at *every point* in the stack
+It's applicable at *every point* in the stack!
 
 ## Fast
 
