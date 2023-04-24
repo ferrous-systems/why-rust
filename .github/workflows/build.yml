@@ -15,7 +15,7 @@ jobs:
       - name: Install tools
         uses: taiki-e/install-action@v2
         with:
-          tool: mdslides@0.1,mdbook@0.4
+          tool: mdslides@0.2,mdbook@0.4
      
       - name: Build the material
         run: |
