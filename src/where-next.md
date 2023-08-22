@@ -313,6 +313,7 @@ But we can show you what other people have found...
 * The Unicode Consortium
 * Dropbox
 * Facebook
+* Infineon
 
 </div>
 </div>
@@ -448,6 +449,14 @@ But we can show you what other people have found...
 > well.
 
 <https://engineering.fb.com/2021/04/29/developer-tools/rust/>
+
+## Infineon now support Rust on their embedded microcontrollers
+
+> With Infineon's support, we can expect Rust's usage in Embedded Systems to
+> become more widespread, standardizing the usage of Rust in the industry while
+> engaging with the Rust FOSS community.
+
+<https://community.infineon.com/t5/Blogs/Infineon-leads-the-way-Enabling-Rust-for-MCUs-in-the-semiconductor-industry/ba-p/410425>
 
 ## How can I get my team up to speed with Rust?
 
