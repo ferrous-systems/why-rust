@@ -267,13 +267,13 @@ For more information about this error, try `rustc --explain E0502`.
 
 * It uses LLVM to generate machine code
 * *Every* Rust install is a cross-compiler
-  * No rummaging for extra installers for your platform
+  * No rummaging for extra installers for your specific target
 
 ## Hosts
 
 * Windows (__x86__, __x86-64__, Aarch64)
 * macOS (__x86-64__, Aarch64)
-* Linux (__x86__, __x86-64__, __Aarch64__, RISC-V, Arm v6, Arm v7, MIPS, PowerPC, S390x)
+* Linux (__x86__, __x86-64__, __Aarch64__, RISC-V, ARM, MIPS, PowerPC, S390x)
 * FreeBSD, NetBSD, Illumos, ...
 
 ## Targets
@@ -299,7 +299,7 @@ For more information about this error, try `rustc --explain E0502`.
 ## Binaries are provided free of charge
 
 * Available using the `rustup` tool
-* AWS sponsor the project
+* [AWS](https://aws.amazon.com/blogs/opensource/aws-sponsorship-of-the-rust-project/) sponsor the project
 * Nothing to sign, no USB dongle required
 
 ## Support is available
@@ -307,26 +307,26 @@ For more information about this error, try `rustc --explain E0502`.
 * There are lots of places you can go for help
   * Forums, Discord, Reddit
   * Professional consulting firms
-* There will soon be a *premium* Rust compiler with a support contract
+  * Rust Toolchain vendors
 
 ## No-one is an expert overnight
 
 * Budget for some training
 * Budget for some time for the team to gain experience
-* (More on this later...)
+* Budget for some support when the team have questions
 
 ## You might need a bigger computer...
 
 > Today, compiling the __Rust compiler__ on a 4-core CPU, that is typically
 > found in a standard laptop, takes up to 15 minutes with another 5-10 minutes
 > for tests. However, a 96-core cloud virtual machine can complete the same
-> build in less than five minutes with tests completing in 35 seconds.
+> build in less than 5 minutes with tests completing in 35 seconds.
 
 ## Compile time checks vs run-time checks
 
 * Rust does a lot of work *up front*
 * The faster your checks run, the more productive you are!
-* Raspberry Pi 4 technically works, but it takes a while...
+* A Raspberry Pi 4 technically works, but it takes a while...
 
 ## Can I build safety-critical systems?
 
@@ -339,7 +339,7 @@ For more information about this error, try `rustc --explain E0502`.
 
 ## What is a safety-critical system?
 
-Generally built following to a standard, like ISO 26262:
+Generally built following a standard, like ISO 26262:
 
 > ISO 26262 is intended to be applied to safety-related systems that include one
 > or more electrical and/or electronic (E/E) systems and that are installed in
@@ -348,7 +348,7 @@ Generally built following to a standard, like ISO 26262:
 
 ## What is a safety-critical system?
 
-Generally built following to a standard, like ISO 26262:
+Generally built following a standard, like ISO 26262:
 
 > This document describes a framework for functional safety to assist the
 > development of safety-related E/E systems. This framework is intended to be
@@ -371,8 +371,9 @@ Generally built following to a standard, like ISO 26262:
 * Well you can use C
 * And C is kinda risky...
 * But processes have been developed to manage that risk
-* And tools have been pre-qualified so you can rely on them doing what they say
+* And C toolchains have been *qualified* so you can rely on them doing what they say
   they are going to do
+    * If you hold them the right way
 
 ## Language Specifications
 
@@ -391,10 +392,11 @@ Generally built following to a standard, like ISO 26262:
 
 ## Ferrocene
 
-* A Ferrous Systems and AdaCore joint venture
-* To produce Ferrocene, they first wrote the *Ferrocene Language Specification*
+* To produce Ferrocene, we first wrote the *Ferrocene Language Specification*
   * See <https://spec.ferrocene.dev>
 * Ferrocene is based on the open-source Rust compiler
   * Additional testing and run-time checks in the toolchain
   * Lots of documentation!
 * Pricing and support options available in due course
+* Preview versions available today 
+* I'm sure other companies will have similar offerings (ask them!)
