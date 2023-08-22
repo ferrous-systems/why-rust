@@ -179,14 +179,11 @@ int main(int argc, char** argv) {
 
 ## You cannot transfer ownership between threads unless the type supports that
 
-* Functions that move between threads require types to be `Send`
-* The reference-counting heap allocation handle `Rc<T>` __is not__ `Send`
-* The atomic-reference-counting heap allocation handle `Arc<T>` __is__ `Send`
-
-## You cannot transfer references between threads unless the type supports that
-
-* Functions that copy references between threads require the types to be `Sync`
-* A `Mutex<T>` is `Sync` if the underlying `T` is `Send`
+* Rust *channels* require types to be marked as thread-safe
+* Passing values when starting a spawed thread - same checks
+* The ref-counting allocation type `Rc<T>` __is not__ thread-safe
+* The __atomic__-ref-counting allocation type `Arc<T>` __is__ (but is slightly slower)
+* Make the wrong choice? Compiler stops you!
 
 ## There's an escape hatch
 
@@ -251,8 +248,9 @@ You are requiring the user to pay attention and do some manual checks
 * It also compiles all your examples
 
 ## It's completely cross-platform
-  * Windows, Linux and macOS devs all working with the *same tools*
-  * You can build a single binary that is trivial to deploy
+
+* Windows, Linux and macOS devs all working with the *same tools*
+* You can build a single binary that is trivial to deploy
 
 ## OK, but what's the catch?
 
