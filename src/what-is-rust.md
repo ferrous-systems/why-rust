@@ -128,11 +128,11 @@ Want to use `zlib`, `OpenSSL`, `SomeSpecialDriverLib`? Sure!
 
 ---
 
-![center](./platinum-members.png)
+![center](./images/platinum-members.png)
 
 ---
 
-![center](./other-members.png)
+![center](./images/other-members.png)
 
 ## The Rust Project
 

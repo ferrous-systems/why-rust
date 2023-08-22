@@ -5,7 +5,7 @@ on:
   pull_request:
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -15,18 +15,26 @@ jobs:
       - name: Install tools
         uses: taiki-e/install-action@v2
         with:
-          tool: mdslides@0.2,mdbook@0.4
-     
+          tool: mdslides@0.3,mdbook@0.4,mdbook-mermaid@0.12
+    
+      - name: Find slug name
+        run: |
+          slug=$(./describe.sh "${GITHUB_REF}")
+          echo "Building with slug '${slug}'"
+          echo "slug=${slug}" >> "${GITHUB_ENV}"
+
       - name: Build the material
         run: |
           ./build.sh
 
       - name: Assemble Artifacts
         run: |
-          mkdir -p ./output
-          mv ./book ./output/book
-          mv ./slides ./output/slides
-          zip -r ./output.zip ./output
+          echo "Making ./why-rust-${{ env.slug }}..."
+          mkdir -p ./why-rust-${{ env.slug }}
+          mv ./slides ./why-rust-${{ env.slug }}/slides
+          mv ./book ./why-rust-${{ env.slug }}/book
+          echo "Compressing ./why-rust-${{ env.slug }}.zip..."
+          zip -r ./why-rust-${{ env.slug }}.zip ./why-rust-${{ env.slug }}
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
@@ -35,11 +43,11 @@ jobs:
           name: Artifacts
           if-no-files-found: error
           path: |
-            ./output
+            ./why-rust-*/
 
       - name: Create and Upload Release
         if: github.event_name == 'push' && startswith(github.ref, 'refs/tags/')
         id: create_release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: ./output.zip
+          artifacts: ./why-rust-${{ env.slug }}.zip
