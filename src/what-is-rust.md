@@ -120,20 +120,6 @@ Want to use `zlib`, `OpenSSL`, `SomeSpecialDriverLib`? Sure!
 
 ## Who's in charge now?
 
-## The Rust Foundation
-
-> ... is an independent non-profit organization dedicated to stewarding the Rust
-> programming language, nurturing the Rust ecosystem, and supporting the set of
-> maintainers governing and developing the project.
-
----
-
-![center](./images/platinum-members.png)
-
----
-
-![center](./images/other-members.png)
-
 ## The Rust Project
 
 https://www.rust-lang.org/governance
@@ -141,7 +127,7 @@ https://www.rust-lang.org/governance
 <div class="columns">
 <div>
 
-* Core Team          
+* The Leadership Council          
 * Compiler Team      
 * Crates.io Team     
 * Dev Tools Team     
@@ -153,7 +139,8 @@ https://www.rust-lang.org/governance
 * Language Team   
 * Library Team    
 * Moderation Team 
-* Release Team    
+* Release Team
+* Launching Pad Team
 
 </div>
 </div>
@@ -179,10 +166,24 @@ https://www.rust-lang.org/governance
 </div>
 </div>
 
+## The Rust Foundation
+
+> ... is an independent non-profit organization dedicated to stewarding the Rust
+> programming language, nurturing the Rust ecosystem, and supporting the set of
+> maintainers governing and developing the project.
+
+---
+
+![center](./images/platinum-members.png)
+
+---
+
+![center](./images/other-members.png)
+
 ## Who decides on new features?
 
 * Discuss in chat/forums
-* Open an RFC (a specification)
+* Open a [Request For Change (RFC)](https://github.com/rust-lang/rfcs)
 * Relevant team takes a vote
 * Tracking ticket is created
 * Pull Request(s) to implement the change
@@ -190,10 +191,10 @@ https://www.rust-lang.org/governance
 
 ## Summary
 
-* Rust is a collaborative open-source project that prides itself on inclusion.
+* Rust is a collaborative open-source project that prides itself on inclusion
 * There is no "owner", nor "BDFL" 
-* It has a strong financial backing
-* It is a work in progress
+* It has strong financial backing
+* It remains a work-in-progress
 
 ## Is this a community I can engage with?
 
