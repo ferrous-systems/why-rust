@@ -295,6 +295,29 @@ If it's safe enough, maintainable enough and fast enough, then you should keep i
 
 But we can show you what other people have found...
 
+## Some quotes...
+
+<div class="columns">
+<div>
+
+* Microsoft SRC
+* Azure
+* Mozilla
+* Google Chrome
+* Cloudflare
+
+</div>
+<div>
+
+* Amazon
+* Linux Kernel developers
+* The Unicode Consortium
+* Dropbox
+* Facebook
+
+</div>
+</div>
+
 ## Microsoft observe there's an issue:
 
 > Tools and guidance are demonstrably not preventing this class of
