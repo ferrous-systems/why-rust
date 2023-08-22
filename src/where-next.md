@@ -287,7 +287,7 @@ If it's safe enough, maintainable enough and fast enough, then you should keep i
 
 ## It's early days for building critical-systems in Rust
 
- Ferrocene is good, but C and Ada have a multi-decade head start
+Ferrocene is good, but C and Ada have a multi-decade head start
 
 ## Is the juice worth the squeeze?
 
@@ -403,14 +403,14 @@ But we can show you what other people have found...
 
 <https://lore.kernel.org/lkml/20220117053349.6804-1-ojeda@kernel.org/>
 
-## The Unicode Consortium write ICU4X in Rust
+## The Unicode Consortium wrote ICU4X in Rust
 
 > Built from the ground up to be lightweight, portable, and secure, ICU4X learns
 > from decades of experience to bring localized date formatting, number
 > formatting, collation, text segmentation, and more to devices that, until now,
 > did not have a suitable solution.
 
-## The Unicode Consortium write ICU4X in Rust
+## The Unicode Consortium wrote ICU4X in Rust
 
 > ICU4X supports multiple programming languages out of the box. ICU4X can be
 > used in the Rust programming language natively, with official wrappers in C++
@@ -440,25 +440,6 @@ But we can show you what other people have found...
 <https://engineering.fb.com/2021/04/29/developer-tools/rust/>
 
 ## How can I get my team up to speed with Rust?
-
-## Consultancy and Support
-
-There are a growing number of Rust-based consultancies.
-
-* [Ferrous Systems](https://www.ferrous-systems.com)
-* [Integer32](https://www.integer32.com)
-* [Tweede Golf](https://tweedegolf.nl/en)
-* [CrabNebula](https://crabnebula.dev)
-
-## Professional Training
-
-Ferrous Systems offer professional training for small teams:
-
-* €3,000 per person
-* Just for you - groups of 5 to 12 people
-* Spread over six half-days (6 x 4 hrs = 24 hrs)
-* Our material is open-source: <https://github.com/ferrous-systems/teaching-material>
-* Tailored to your needs and experience
 
 ## On-line Self-Taught Courses
 
@@ -505,3 +486,25 @@ Ferrous Systems offer professional training for small teams:
 
 * Rust in Action
 * Rust for Rustaceans
+
+## Consultancy and Support
+
+There are a growing number of Rust-based consultancies.
+
+* [Ferrous Systems](https://www.ferrous-systems.com)
+* [Integer32](https://www.integer32.com)
+* [Tweede Golf](https://tweedegolf.nl/en)
+* [CrabNebula](https://crabnebula.dev)
+
+## Professional Training
+
+Ferrous Systems offer professional training for small teams:
+
+* €3,000 per person
+* Just for you - groups of 5 to 12 people
+* Spread over six half-days (6 x 4 hrs = 24 hrs)
+* Our material is open-source: <https://github.com/ferrous-systems/rust-training>
+* Tailored to your needs and experience
+* Attending this seminar gets you a 5% discount
+
+# Any Questions?
