@@ -300,16 +300,15 @@ But we can show you what other people have found...
 <div class="columns">
 <div>
 
-* Microsoft SRC
-* Azure
+* Microsoft
 * Mozilla
-* Google Chrome
+* Google
 * Cloudflare
+* Amazon
 
 </div>
 <div>
 
-* Amazon
 * Linux Kernel developers
 * The Unicode Consortium
 * Dropbox
@@ -357,7 +356,27 @@ But we can show you what other people have found...
 
 <https://blog.mozilla.org/en/products/firefox/put-trust-rust-shipping-now-firefox/>
 
-## Now Google want to use Rust in Chrome
+## Rust means Android has fewer bugs
+
+> As the amount of new memory-unsafe code entering Android has decreased, so too
+> has the number of memory safety vulnerabilities. From 2019 to 2022 it has
+> dropped from 76% down to 35% of Android’s total vulnerabilities. 2022 is the
+> first year where memory safety vulnerabilities do not represent a majority of
+> Android’s vulnerabilities.
+
+<https://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html>
+
+## And their roll-out is going pretty well..
+
+> More than 2/3 of respondents are confident in contributing to a Rust codebase
+> within two months or less when learning Rust.
+> 
+> Anecdotally, these ramp-up numbers are in line with the time we’ve seen for
+> developers to adopt other languages, both inside and outside of Google.
+
+<https://opensource.googleblog.com/2023/06/rust-fact-vs-fiction-5-insights-from-googles-rust-journey-2022.html>
+
+## So now Google want to use Rust in Chrome
 
 > Our goal in bringing Rust into Chromium is to provide a simpler and safer way
 > to satisfy the rule of two, in order to speed up development and improve the
@@ -365,6 +384,7 @@ But we can show you what other people have found...
 > to work toward this goal.
 
 <https://security.googleblog.com/2023/01/supporting-use-of-rust-in-chromium.html>
+
 
 ## Cloudflare replaced NGINX with a custom service written in Rust:
 
@@ -383,16 +403,6 @@ But we can show you what other people have found...
 > for new AWS Nitro System components...
 
 <https://aws.amazon.com/blogs/opensource/why-aws-loves-rust-and-how-wed-like-to-help/>
-
-## Rust means Android has fewer bugs
-
-> As the amount of new memory-unsafe code entering Android has decreased, so too
-> has the number of memory safety vulnerabilities. From 2019 to 2022 it has
-> dropped from 76% down to 35% of Android’s total vulnerabilities. 2022 is the
-> first year where memory safety vulnerabilities do not represent a majority of
-> Android’s vulnerabilities.
-
-<https://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html>
 
 ## Rust is only the second ever support language for writing Linux Kernel Drivers
 
