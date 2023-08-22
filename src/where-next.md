@@ -264,11 +264,10 @@ You are requiring the user to pay attention and do some manual checks
 
 ## Rust exposes underlying complexity
 
-* Rust strings are always valid UTF-8, and not null-terminated
-* C strings are null-terminated, and of unspecified encoding
-* OS strings are 8-bit on some platforms and 16-bit on others (Windows)
-* Paths on disk are not always valid Unicode
-* You get: `String`/`&str`, `CString`/`&CStr`, `OsString`/`&OsStr`, `PathBuf`/`&Path`
+* There are at least six kinds of "String" in Rust
+  * Owned or Borrowed, Rust-native, C-compatible and OS-compatible
+* There is no garbage collector - you manage your own memory
+  * Maybe you'd be OK with the performance of C# or Java?
 
 ## Rust doesn't interact well with C++ code
 
@@ -281,9 +280,11 @@ You are requiring the user to pay attention and do some manual checks
 Hardware is a blob of shared mutable state and you have to manually verify
     your access to it is correct
 
-##  What you have works just fine
+## What you have works just fine
 
 If it's safe enough, maintainable enough and fast enough, then you should keep it!
+
+Definitely don't do too many new things at once.
 
 ## It's early days for building critical-systems in Rust
 
